@@ -29,21 +29,22 @@ The system consists of two independent modules (Separation of Concerns):
 ## Local Setup & Execution
 
 1. Clone the repository:
+```bash
 git clone [https://github.com/WojtekBorodziuk/NIDS-homelab.git](https://github.com/WojtekBorodziuk/NIDS-homelab.git)
 cd nids-homelab
 
 
-3. Create and activate a virtual environment:
+2. Create and activate a virtual environment:
 python3 -m venv venv
 source venv/bin/activate
 
-4. Install dependencies:
+3. Install dependencies:
 pip install scapy streamlit pandas requests
 
-5. Run the analytical engine (requires sudo to listen on the network interface):
+4. Run the analytical engine (requires sudo to listen on the network interface):
 sudo venv/bin/python sniffer.py
 
-6. In a second terminal window, run the analytical dashboard:
+5. In a second terminal window, run the analytical dashboard:
 python -m streamlit run dashboard.py
 
 ## Attack Simulation (Purple Team)
