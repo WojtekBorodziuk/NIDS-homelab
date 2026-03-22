@@ -6,8 +6,7 @@ Created as part of a home lab (Purple Teaming) using Proxmox VE and Kali Linux.
 
 ## Project Architecture
 
-*(Insert your exported draw.io diagram here)*
-`![Network Diagram](link_to_image_on_github)`
+`![Network Diagram](NIDS_topology.png)`
 
 The system consists of two independent modules (Separation of Concerns):
 1. **Core Engine (`sniffer.py`)**: Runs in the background (as a systemd service) with root privileges. It uses the `Scapy` library and BPF filters to capture and analyze TCP traffic at the packet level.
