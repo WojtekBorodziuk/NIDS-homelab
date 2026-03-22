@@ -30,6 +30,7 @@ The system consists of two independent modules (Separation of Concerns):
 
 1. Clone the repository:
 git clone [https://github.com/WojtekBorodziuk/NIDS-homelab.git](https://github.com/WojtekBorodziuk/NIDS-homelab.git)
+
 cd nids-homelab
 
 
